@@ -1,9 +1,6 @@
 FROM nciccbr/ccbr_baser:latest
-RUN pwd
+RUN apt-get update && apt-get install --fix-missing -y libharfbuzz-dev libfribidi-dev libproj-dev
 RUN mkdir -p /opt2/ && mkdir -p /data2 && mkdir -p /repo
 WORKDIR /repo
-RUN ls -alrth /repo
 COPY . .
-RUN ls -alrth /repo
-RUN pwd
 RUN Rscript install_packages.R 
