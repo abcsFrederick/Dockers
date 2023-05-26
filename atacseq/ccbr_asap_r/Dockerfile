@@ -1,5 +1,6 @@
-FROM library/r-base:4.1.1
-RUN mkdir -p /opt2/ && mkdir -p /data2
+FROM nciccbr/ccbr_baser:latest
+RUN mkdir -p /opt2/ && mkdir -p /data2 && mkdir -p /repo
+WORKDIR /repo
+COPY . .
 WORKDIR /opt2
-COPY install_packages.R .
-RUN Rscript install_packages.R .
+RUN Rscript /repo/install_packages.R 
