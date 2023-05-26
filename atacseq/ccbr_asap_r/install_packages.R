@@ -1,21 +1,21 @@
-install.packages("BiocManager"
-BiocManager::install("DESeq2",update=FALSE,ask=FALSE,dependencies=TRUE
-BiocManager::install("edgeR",update=FALSE,ask=FALSE,dependencies=TRUE
-BiocManager::install("EnhancedVolcano",update=FALSE,ask=FALSE,dependencies=TRUE
-BiocManager::install("ComplexHeatmap",update=FALSE,ask=FALSE,dependencies=TRUE
-BiocManager::install("rtracklayer",update=FALSE,ask=FALSE,dependencies=TRUE
-BiocManager::install("ChIPseeker",update=FALSE,ask=FALSE,dependencies=TRUE
-BiocManager::install("TxDb.Hsapiens.UCSC.hg38.knownGene",update=FALSE,ask=FALSE,dependencies=TRUE
-BiocManager::install("org.Hs.eg.db",update=FALSE,ask=FALSE,dependencies=TRUE
-install.packages("DT"
-install.packages("RColorBrewer"
-install.packages("dplyr"
-install.packages("tidyverse"
-install.packages("pander"
-install.packages("reshape2"
-install.packages("ggplot2"
-install.packages("ggfortify"
-install.packages("ggrepel"
+install.packages("BiocManager")
+BiocManager::install("DESeq2",update=FALSE,ask=FALSE,dependencies=TRUE)
+BiocManager::install("edgeR",update=FALSE,ask=FALSE,dependencies=TRUE)
+BiocManager::install("EnhancedVolcano",update=FALSE,ask=FALSE,dependencies=TRUE)
+BiocManager::install("ComplexHeatmap",update=FALSE,ask=FALSE,dependencies=TRUE)
+BiocManager::install("rtracklayer",update=FALSE,ask=FALSE,dependencies=TRUE)
+BiocManager::install("ChIPseeker",update=FALSE,ask=FALSE,dependencies=TRUE)
+BiocManager::install("TxDb.Hsapiens.UCSC.hg38.knownGene",update=FALSE,ask=FALSE,dependencies=TRUE)
+BiocManager::install("org.Hs.eg.db",update=FALSE,ask=FALSE,dependencies=TRUE)
+install.packages("DT")
+install.packages("RColorBrewer")
+install.packages("dplyr")
+install.packages("tidyverse")
+install.packages("pander")
+install.packages("reshape2")
+install.packages("ggplot2")
+install.packages("ggfortify")
+install.packages("ggrepel")
 
 
 # check
